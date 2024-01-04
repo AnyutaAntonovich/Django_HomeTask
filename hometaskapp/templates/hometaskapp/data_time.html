@@ -1,0 +1,13 @@
+{% extends "myapp/base_htapp.html" %}
+
+    {% block title %} {{ name }} - data_time {% endblock %}
+
+        {% block content %}
+        <h1>Образовательный портал Study Portal</h1>
+        <p>Клиентов за последнюю неделю. {{ delta_week }}</p>
+        <p>Клиентов за последний месяц. {{ delta_month }}!</p>
+        <p>Клиентов за последний год. {{ delta_year }}!</p>
+        <p style="color:#ffffff">С нами вы сможете быстро и легко подтянуть знания по любому направлению и сдать все
+        экзамены на ОТЛИЧНО!
+        </p>
+        {% endblock %}
