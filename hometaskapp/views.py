@@ -3,6 +3,8 @@ import logging
 from django.http import HttpResponse
 from django.shortcuts import render
 import datetime
+from django.core.files.storage import FileSystemStorage
+from .forms import ImageForm
 
 
 logger = logging.getLogger(__name__)
@@ -33,3 +35,16 @@ def data_time(request):
 
     context = {'delta_week': delta_week, 'delta_month': delta_month, 'delta_year': delta_year}
     return render(request, 'hometaskapp/data_time.html', context=context)
+
+
+def upload_image(request):
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+    if form.is_valid():
+        image = form.cleaned_data['image']
+        fs = FileSystemStorage()
+        fs.save(image.name, image)
+    else:
+        form = ImageForm()
+    return render(request, 'hometaskapp/upload_image.html', {'form': form})
+

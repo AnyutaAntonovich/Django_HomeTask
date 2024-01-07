@@ -19,6 +19,7 @@ class Service(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     description = models.TextField()
     count = models.IntegerField()
+    image = models.ImageField()
     date_add = models.DateTimeField(auto_now_add=True)
 
 
