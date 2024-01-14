@@ -1,0 +1,577 @@
+INFO 2023-12-19 21:19:19,076 autoreload 20676 22220 Watching for file changes with StatReloader
+INFO 2023-12-19 21:24:27,509 autoreload 20676 22220 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:24:27,909 autoreload 18200 15764 Watching for file changes with StatReloader
+INFO 2023-12-19 21:41:54,085 autoreload 18200 15764 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:41:54,544 autoreload 17684 16444 Watching for file changes with StatReloader
+INFO 2023-12-19 21:43:16,844 autoreload 17684 16444 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\urls.py changed, reloading.
+INFO 2023-12-19 21:43:17,194 autoreload 272 12756 Watching for file changes with StatReloader
+WARNING 2023-12-19 21:43:33,790 log 272 20540 Not Found: /
+WARNING 2023-12-19 21:43:33,791 basehttp 272 20540 "GET / HTTP/1.1" 404 2173
+WARNING 2023-12-19 21:43:33,921 log 272 10352 Not Found: /
+WARNING 2023-12-19 21:43:33,921 basehttp 272 10352 "GET / HTTP/1.1" 404 2173
+INFO 2023-12-19 21:43:39,721 basehttp 272 20540 "GET /main/ HTTP/1.1" 200 13
+INFO 2023-12-19 21:43:39,744 basehttp 272 10352 "GET /main/ HTTP/1.1" 200 13
+INFO 2023-12-19 21:43:51,363 basehttp 272 20540 "GET /main/about HTTP/1.1" 301 0
+INFO 2023-12-19 21:43:51,368 basehttp 272 16788 "GET /main/about/ HTTP/1.1" 200 300
+INFO 2023-12-19 21:43:51,390 basehttp 272 10352 "GET /main/about/ HTTP/1.1" 200 300
+INFO 2023-12-19 21:45:03,853 autoreload 272 12756 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:45:04,190 autoreload 21712 14564 Watching for file changes with StatReloader
+INFO 2023-12-19 21:45:07,980 basehttp 21712 17652 "GET /main/about/ HTTP/1.1" 200 229
+INFO 2023-12-19 21:45:08,000 basehttp 21712 10156 "GET /main/about/ HTTP/1.1" 200 229
+INFO 2023-12-19 21:45:40,935 autoreload 21712 14564 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:45:41,283 autoreload 8856 12480 Watching for file changes with StatReloader
+INFO 2023-12-19 21:45:54,708 basehttp 8856 1640 "GET /main/about/ HTTP/1.1" 200 249
+INFO 2023-12-19 21:45:54,728 basehttp 8856 11996 "GET /main/about/ HTTP/1.1" 200 249
+INFO 2023-12-19 21:45:56,887 basehttp 8856 1640 "GET /main/about/ HTTP/1.1" 200 249
+INFO 2023-12-19 21:45:56,907 basehttp 8856 11996 "GET /main/about/ HTTP/1.1" 200 249
+INFO 2023-12-19 21:46:46,425 autoreload 8856 12480 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:46:46,822 autoreload 21024 7540 Watching for file changes with StatReloader
+INFO 2023-12-19 21:50:32,288 autoreload 21024 7540 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:50:32,635 autoreload 10072 4896 Watching for file changes with StatReloader
+INFO 2023-12-19 21:50:38,102 basehttp 10072 21464 "GET /main/about/ HTTP/1.1" 200 749
+INFO 2023-12-19 21:50:38,135 basehttp 10072 22276 "GET /main/about/ HTTP/1.1" 200 749
+INFO 2023-12-19 21:51:18,504 autoreload 10072 4896 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:51:18,846 autoreload 7780 12568 Watching for file changes with StatReloader
+INFO 2023-12-19 21:51:22,057 basehttp 7780 11240 "GET /main/about/ HTTP/1.1" 200 747
+INFO 2023-12-19 21:51:22,080 basehttp 7780 9428 "GET /main/about/ HTTP/1.1" 200 747
+INFO 2023-12-19 21:52:13,870 autoreload 7780 12568 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:52:14,230 autoreload 12296 9652 Watching for file changes with StatReloader
+INFO 2023-12-19 21:52:28,615 autoreload 12296 9652 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:52:28,971 autoreload 22380 9920 Watching for file changes with StatReloader
+INFO 2023-12-19 21:52:33,861 basehttp 22380 4296 "GET /main/about/ HTTP/1.1" 200 756
+INFO 2023-12-19 21:52:33,880 basehttp 22380 8372 "GET /main/about/ HTTP/1.1" 200 756
+INFO 2023-12-19 21:53:17,851 autoreload 22380 9920 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:53:18,252 autoreload 18608 16688 Watching for file changes with StatReloader
+INFO 2023-12-19 21:56:19,836 autoreload 18608 16688 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:56:20,219 autoreload 10660 8380 Watching for file changes with StatReloader
+INFO 2023-12-19 21:56:56,901 autoreload 10660 8380 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:56:57,266 autoreload 19744 5740 Watching for file changes with StatReloader
+INFO 2023-12-19 21:57:13,665 autoreload 19744 5740 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:57:14,013 autoreload 11796 8388 Watching for file changes with StatReloader
+INFO 2023-12-19 21:57:57,745 autoreload 11796 8388 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2023-12-19 21:57:58,108 autoreload 19584 9152 Watching for file changes with StatReloader
+INFO 2023-12-19 21:58:10,181 basehttp 19584 14764 "GET /main/ HTTP/1.1" 200 405
+INFO 2023-12-19 21:58:10,288 basehttp 19584 2680 "GET /main/ HTTP/1.1" 200 405
+INFO 2023-12-19 21:58:23,629 basehttp 19584 14764 "GET /main/about/ HTTP/1.1" 200 784
+INFO 2023-12-19 21:58:23,652 basehttp 19584 2680 "GET /main/about/ HTTP/1.1" 200 784
+INFO 2024-01-13 17:03:02,212 autoreload 1988 14588 Watching for file changes with StatReloader
+INFO 2024-01-13 17:04:11,639 autoreload 1988 14588 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:04:11,993 autoreload 16864 5952 Watching for file changes with StatReloader
+INFO 2024-01-13 17:08:58,683 autoreload 16864 5952 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:08:59,033 autoreload 2640 8464 Watching for file changes with StatReloader
+INFO 2024-01-13 17:09:30,621 autoreload 2640 8464 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:09:30,980 autoreload 16588 17364 Watching for file changes with StatReloader
+INFO 2024-01-13 17:10:01,171 autoreload 19524 12008 Watching for file changes with StatReloader
+INFO 2024-01-13 17:10:29,699 autoreload 19524 12008 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:10:30,049 autoreload 20460 19264 Watching for file changes with StatReloader
+INFO 2024-01-13 17:11:19,873 autoreload 20460 19264 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:11:20,216 autoreload 14588 3020 Watching for file changes with StatReloader
+INFO 2024-01-13 17:11:56,889 autoreload 14588 3020 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:11:57,241 autoreload 19512 16936 Watching for file changes with StatReloader
+INFO 2024-01-13 17:16:35,841 autoreload 3012 6984 Watching for file changes with StatReloader
+INFO 2024-01-13 17:16:42,387 basehttp 3012 12112 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-13 17:16:42,417 basehttp 3012 12112 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-13 17:16:42,487 basehttp 3012 5588 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-13 17:17:00,346 basehttp 3012 12112 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-13 17:17:00,361 basehttp 3012 12112 "GET /admin/ HTTP/1.1" 200 5947
+INFO 2024-01-13 17:17:00,389 basehttp 3012 5588 "GET /admin/ HTTP/1.1" 200 5947
+INFO 2024-01-13 17:19:00,456 autoreload 3012 6984 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:19:00,877 autoreload 20408 4376 Watching for file changes with StatReloader
+INFO 2024-01-13 17:20:44,334 autoreload 20408 4376 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:20:44,681 autoreload 6480 15564 Watching for file changes with StatReloader
+INFO 2024-01-13 17:21:39,539 autoreload 6480 15564 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-13 17:21:39,915 autoreload 16496 11416 Watching for file changes with StatReloader
+INFO 2024-01-14 20:25:10,687 autoreload 2208 6096 Watching for file changes with StatReloader
+INFO 2024-01-14 20:26:01,551 autoreload 2208 6096 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-14 20:26:01,918 autoreload 10876 2340 Watching for file changes with StatReloader
+INFO 2024-01-14 20:26:28,436 autoreload 10876 2340 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-14 20:26:28,785 autoreload 20564 18160 Watching for file changes with StatReloader
+INFO 2024-01-14 20:26:45,167 autoreload 20564 18160 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-14 20:26:45,521 autoreload 6092 20064 Watching for file changes with StatReloader
+WARNING 2024-01-14 20:26:56,654 log 6092 18092 Not Found: /
+WARNING 2024-01-14 20:26:56,654 basehttp 6092 18092 "GET / HTTP/1.1" 404 2173
+WARNING 2024-01-14 20:26:56,795 log 6092 17836 Not Found: /
+WARNING 2024-01-14 20:26:56,796 basehttp 6092 17836 "GET / HTTP/1.1" 404 2173
+INFO 2024-01-14 20:27:14,511 basehttp 6092 18092 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-14 20:27:14,604 basehttp 6092 18092 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-14 20:27:14,649 basehttp 6092 17836 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-14 20:27:17,022 basehttp 6092 18092 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-14 20:27:17,047 basehttp 6092 18092 "GET /admin/ HTTP/1.1" 200 7117
+INFO 2024-01-14 20:27:17,074 basehttp 6092 17836 "GET /admin/ HTTP/1.1" 200 7117
+ERROR 2024-01-14 20:27:19,585 log 6092 18092 Internal Server Error: /admin/hometaskapp/service/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hometaskapp_service.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hometaskapp_service.image
+ERROR 2024-01-14 20:27:19,591 basehttp 6092 18092 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 174093
+ERROR 2024-01-14 20:27:19,687 log 6092 17836 Internal Server Error: /admin/hometaskapp/service/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hometaskapp_service.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hometaskapp_service.image
+ERROR 2024-01-14 20:27:19,693 basehttp 6092 17836 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 172992
+INFO 2024-01-14 20:27:28,997 basehttp 6092 18092 "GET /admin/ HTTP/1.1" 200 7117
+INFO 2024-01-14 20:27:29,037 basehttp 6092 17836 "GET /admin/ HTTP/1.1" 200 7117
+INFO 2024-01-14 20:27:31,439 basehttp 6092 18092 "GET /admin/hometaskapp/user/ HTTP/1.1" 200 14926
+INFO 2024-01-14 20:27:31,480 basehttp 6092 18092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-14 20:27:31,521 basehttp 6092 17836 "GET /admin/hometaskapp/user/ HTTP/1.1" 200 14926
+INFO 2024-01-14 20:27:31,526 basehttp 6092 18092 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+ERROR 2024-01-14 20:27:39,888 log 6092 18092 Internal Server Error: /admin/hometaskapp/service/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hometaskapp_service.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hometaskapp_service.image
+ERROR 2024-01-14 20:27:39,894 basehttp 6092 18092 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 174110
+ERROR 2024-01-14 20:27:39,968 log 6092 17836 Internal Server Error: /admin/hometaskapp/service/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hometaskapp_service.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hometaskapp_service.image
+ERROR 2024-01-14 20:27:39,973 basehttp 6092 17836 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 172992
+INFO 2024-01-14 20:27:42,757 basehttp 6092 18092 "GET /admin/hometaskapp/user/ HTTP/1.1" 200 14926
+INFO 2024-01-14 20:27:42,801 basehttp 6092 17836 "GET /admin/hometaskapp/user/ HTTP/1.1" 200 14926
+INFO 2024-01-14 20:28:13,244 autoreload 6092 20064 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-14 20:28:13,611 autoreload 18776 13784 Watching for file changes with StatReloader
+INFO 2024-01-14 20:28:18,553 basehttp 18776 20084 "GET /admin/hometaskapp/user/ HTTP/1.1" 200 14926
+INFO 2024-01-14 20:28:18,574 basehttp 18776 20084 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-14 20:28:18,609 basehttp 18776 16060 "GET /admin/hometaskapp/user/ HTTP/1.1" 200 14926
+ERROR 2024-01-14 20:28:20,020 log 18776 20084 Internal Server Error: /admin/hometaskapp/service/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hometaskapp_service.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hometaskapp_service.image
+ERROR 2024-01-14 20:28:20,025 basehttp 18776 20084 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 174110
+ERROR 2024-01-14 20:28:20,109 log 18776 16060 Internal Server Error: /admin/hometaskapp/service/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hometaskapp_service.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hometaskapp_service.image
+ERROR 2024-01-14 20:28:20,115 basehttp 18776 16060 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 172992
+INFO 2024-01-14 20:29:41,154 autoreload 18776 13784 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
+INFO 2024-01-14 20:29:41,507 autoreload 5320 9060 Watching for file changes with StatReloader
