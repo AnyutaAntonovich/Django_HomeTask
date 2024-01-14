@@ -575,3 +575,452 @@ django.db.utils.OperationalError: no such column: hometaskapp_service.image
 ERROR 2024-01-14 20:28:20,115 basehttp 18776 16060 "GET /admin/hometaskapp/service/ HTTP/1.1" 500 172992
 INFO 2024-01-14 20:29:41,154 autoreload 18776 13784 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\admin.py changed, reloading.
 INFO 2024-01-14 20:29:41,507 autoreload 5320 9060 Watching for file changes with StatReloader
+INFO 2024-01-14 21:18:18,780 autoreload 16496 6536 Watching for file changes with StatReloader
+WARNING 2024-01-14 21:18:25,038 log 16496 15028 Not Found: /
+WARNING 2024-01-14 21:18:25,039 basehttp 16496 15028 "GET / HTTP/1.1" 404 12048
+INFO 2024-01-14 21:18:25,060 basehttp 16496 11396 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-14 21:18:25,060 basehttp 16496 15028 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-14 21:18:25,102 basehttp 16496 15028 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-14 21:18:25,141 basehttp 16496 15028 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-01-14 21:18:25,197 log 16496 13936 Not Found: /
+WARNING 2024-01-14 21:18:25,197 basehttp 16496 13936 "GET / HTTP/1.1" 404 12048
+INFO 2024-01-14 21:18:40,467 basehttp 16496 15028 "GET /main/about HTTP/1.1" 301 0
+ERROR 2024-01-14 21:18:40,696 log 16496 11396 Internal Server Error: /main/about/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 27, in about_us
+    return render(request, 'hometaskapp/about_us.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+ERROR 2024-01-14 21:18:40,727 basehttp 16496 11396 "GET /main/about/ HTTP/1.1" 500 144837
+ERROR 2024-01-14 21:18:40,827 log 16496 13936 Internal Server Error: /main/about/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 27, in about_us
+    return render(request, 'hometaskapp/about_us.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+ERROR 2024-01-14 21:18:40,845 basehttp 16496 13936 "GET /main/about/ HTTP/1.1" 500 143892
+INFO 2024-01-14 21:20:34,263 basehttp 16496 11396 "GET /main/upload HTTP/1.1" 301 0
+ERROR 2024-01-14 21:20:34,289 log 16496 18160 Internal Server Error: /main/upload/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 43, in upload_image
+    if form.is_valid():
+       ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-01-14 21:20:34,300 basehttp 16496 18160 "GET /main/upload/ HTTP/1.1" 500 75054
+ERROR 2024-01-14 21:20:34,372 log 16496 13936 Internal Server Error: /main/upload/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 43, in upload_image
+    if form.is_valid():
+       ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-01-14 21:20:34,386 basehttp 16496 13936 "GET /main/upload/ HTTP/1.1" 500 74110
+INFO 2024-01-14 21:24:10,169 autoreload 16496 6536 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2024-01-14 21:24:10,647 autoreload 20992 17460 Watching for file changes with StatReloader
+INFO 2024-01-14 21:26:54,688 autoreload 20992 17460 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2024-01-14 21:26:55,114 autoreload 11396 17416 Watching for file changes with StatReloader
+INFO 2024-01-14 21:30:47,063 autoreload 11396 17416 D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py changed, reloading.
+INFO 2024-01-14 21:30:47,473 autoreload 16912 10676 Watching for file changes with StatReloader
+WARNING 2024-01-14 21:30:50,056 log 16912 1780 Not Found: /
+WARNING 2024-01-14 21:30:50,057 basehttp 16912 1780 "GET / HTTP/1.1" 404 12048
+WARNING 2024-01-14 21:30:50,212 log 16912 7492 Not Found: /
+WARNING 2024-01-14 21:30:50,212 basehttp 16912 7492 "GET / HTTP/1.1" 404 12048
+ERROR 2024-01-14 21:30:56,186 log 16912 1780 Internal Server Error: /main/upload/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 48, in upload_image
+    return render(request, 'hometaskapp/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-01-14 21:30:56,207 basehttp 16912 1780 "GET /main/upload/ HTTP/1.1" 500 141561
+ERROR 2024-01-14 21:30:56,304 log 16912 7492 Internal Server Error: /main/upload/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 48, in upload_image
+    return render(request, 'hometaskapp/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-01-14 21:30:56,319 basehttp 16912 7492 "GET /main/upload/ HTTP/1.1" 500 140479
+ERROR 2024-01-14 21:31:01,532 log 16912 7492 Internal Server Error: /main/about/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 26, in about_us
+    return render(request, 'hometaskapp/about_us.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+ERROR 2024-01-14 21:31:01,549 basehttp 16912 7492 "GET /main/about/ HTTP/1.1" 500 143892
+ERROR 2024-01-14 21:31:03,990 log 16912 1780 Internal Server Error: /main/about/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 26, in about_us
+    return render(request, 'hometaskapp/about_us.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+ERROR 2024-01-14 21:31:04,005 basehttp 16912 1780 "GET /main/about/ HTTP/1.1" 500 144973
+ERROR 2024-01-14 21:31:04,094 log 16912 7492 Internal Server Error: /main/about/
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\hometaskapp\views.py", line 26, in about_us
+    return render(request, 'hometaskapp/about_us.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Ó÷¸áà\GeekBrains\I ÷åòâåðòü\7. Django\Django_HomeTask\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_htapp.html
+ERROR 2024-01-14 21:31:04,107 basehttp 16912 7492 "GET /main/about/ HTTP/1.1" 500 143892
+INFO 2024-01-14 21:34:07,751 autoreload 21204 3356 Watching for file changes with StatReloader
+INFO 2024-01-14 21:34:15,059 basehttp 21204 6132 "GET /main/about/ HTTP/1.1" 200 10632
+INFO 2024-01-14 21:34:15,114 basehttp 21204 15040 "GET /main/about/ HTTP/1.1" 200 10632
